@@ -14,7 +14,7 @@ export const EntriesProvider = ({ children }) => {
 
   const fetchTimecards = (startDay) => {
     fetch(
-      `https://apex.oracle.com/pls/apex/myfusion/bdo/web_sheets/?start_date=${startDay}`
+      `https://apex.oracle.com/pls/apex/myfusion/hdot/web_sheets/?start_date=${startDay}`
     )
       .then((res) => res.json())
       .then((data) => setTimecards(data.items));
@@ -23,7 +23,7 @@ export const EntriesProvider = ({ children }) => {
   const fetchEntries = (utcDate) => {
     setLoading(true);
     fetch(
-      `https://apex.oracle.com/pls/apex/myfusion/bdo/summary/?timecard_date=${utcDate}`
+      `https://apex.oracle.com/pls/apex/myfusion/hdot/summary/?timecard_date=${utcDate}`
     )
       .then((res) => res.json())
       .then((data) => {
@@ -56,7 +56,7 @@ export const EntriesProvider = ({ children }) => {
       loading: true,
     }));
 
-    fetch("https://apex.oracle.com/pls/apex/myfusion/bdo/timecard_submit/", {
+    fetch("https://apex.oracle.com/pls/apex/myfusion/hdot/timecard_submit/", {
       method: "POST",
       body: JSON.stringify({ timecard_date: utcDate }),
     }).then((res) => {

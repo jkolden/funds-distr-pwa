@@ -87,7 +87,7 @@ export default function Home() {
       <main className={classes.content}>
         <div className={classes.appBarSpacer} />
         <Typography variant="h5" gutterBottom>
-          Welcome Emily!
+          Welcome Brock!
         </Typography>
         <Container maxWidth="lg" className={classes.container}>
           <Grid container spacing={3}>

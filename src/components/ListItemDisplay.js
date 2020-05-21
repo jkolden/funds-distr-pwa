@@ -14,6 +14,7 @@ import HighlightOffIcon from "@material-ui/icons/HighlightOff";
 import Chicago from "../assets/images/Chicago.jpg";
 import Denver from "../assets/images/Denver.png";
 import Grand from "../assets/images/GrandRapids.gif";
+import hdot from "../assets/images/hdot.jpg";
 
 import Projects from "../assets/static/Projects";
 import Tasks from "../assets/static/Tasks";
@@ -61,12 +62,12 @@ export default function ListItemDisplay(props) {
         {!essId ? (
           <Link to={`/form/${localStorage.getItem("utcDate")}/${entry.id}`}>
             <ListItemAvatar>
-              <Avatar alt={entry.locality} src={images[entry.locality]} />
+              <Avatar alt={entry.locality} src={hdot} />
             </ListItemAvatar>
           </Link>
         ) : (
           <ListItemAvatar>
-            <Avatar alt={entry.locality} src={images[entry.locality]} />
+            <Avatar alt={entry.locality} src={hdot} />
           </ListItemAvatar>
         )}
 

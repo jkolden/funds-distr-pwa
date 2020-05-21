@@ -19,7 +19,7 @@ import {
 } from "@material-ui/icons";
 import { makeStyles } from "@material-ui/core/styles";
 
-import emily from "../assets/images/emily.jpg";
+import brock from "../assets/images/brock.jpg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -68,7 +68,7 @@ export default function TopNav({ themeMode, lightMode, darkMode }) {
         )}
 
         <div style={{ flexGrow: 1 }} />
-        <Avatar src={emily} onClick={() => setDialogueOpen(true)}></Avatar>
+        <Avatar src={brock} onClick={() => setDialogueOpen(true)}></Avatar>
       </Toolbar>
 
       <SwipeableDrawer

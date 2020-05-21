@@ -104,7 +104,7 @@ function Form({ match }) {
 
     const myentries = [{ hourlyEntry: hourlyEntry }];
 
-    fetch("https://apex.oracle.com/pls/apex/myfusion/bdo/web_hours/", {
+    fetch("https://apex.oracle.com/pls/apex/myfusion/hdot/web_hours/", {
       method: "POST",
       body: JSON.stringify(myentries),
     }).then((res) => {
