@@ -10,10 +10,10 @@ import {
 import Typography from "@material-ui/core/Typography";
 
 const data = [
-  { name: "Internal Productivity", value: 400 },
-  { name: "Dixon Industries", value: 300 },
-  { name: "Milestone Billing", value: 300 },
-  { name: "Administration", value: 100 }
+  { name: "NBCCEDP", value: 400 },
+  { name: "NCCCP", value: 300 },
+  { name: "Major Highway Construction", value: 300 },
+  { name: "Minor Highway Construction", value: 100 }
 ];
 const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
 

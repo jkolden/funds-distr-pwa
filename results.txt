@@ -1,0 +1,275 @@
+Name:               129.213.158.184
+Roles:              node
+Labels:             beta.kubernetes.io/arch=amd64
+                    beta.kubernetes.io/instance-type=VM.Standard2.1
+                    beta.kubernetes.io/os=linux
+                    displayName=oke-cstamlegy3g-n2tgmtbgi2t-s4ot3grdjxq-0
+                    failure-domain.beta.kubernetes.io/region=iad
+                    failure-domain.beta.kubernetes.io/zone=US-ASHBURN-AD-1
+                    hostname=oke-cstamlegy3g-n2tgmtbgi2t-s4ot3grdjxq-0
+                    internal_addr=10.0.0.3
+                    kubernetes.io/hostname=129.213.158.184
+                    name=
+                    node-role.kubernetes.io/node=
+                    node.info/compartment.id_prefix=ocid1.compartment.oc1
+                    node.info/compartment.id_suffix=aaaaaaaalmlvzik7ma2odvrpge57bonyceqmvgc5sziagekmfdpoio4ubc6a
+                    node.info/compartment.name=NAADEV_CMP
+                    node.info/external.ipaddress=129.213.158.184
+                    node.info/kubeletVersion=v1.11
+                    node.info/node.id_prefix=ocid1.instance.oc1.iad
+                    node.info/node.id_suffix=abuwcljsc5iocjy2icjjxh4aaw7arfkvlc6nbfuiclvq56vgbkuwz4p5owzq
+                    oci.oraclecloud.com/fault-domain=FAULT-DOMAIN-1
+Annotations:        flannel.alpha.coreos.com/backend-data: {"VtepMAC":"aa:f1:7e:d3:56:20"}
+                    flannel.alpha.coreos.com/backend-type: vxlan
+                    flannel.alpha.coreos.com/kube-subnet-manager: true
+                    flannel.alpha.coreos.com/public-ip: 10.0.0.3
+                    node.alpha.kubernetes.io/ttl: 0
+                    oci.oraclecloud.com/compartment-id: ocid1.compartment.oc1..aaaaaaaalmlvzik7ma2odvrpge57bonyceqmvgc5sziagekmfdpoio4ubc6a
+                    volumes.kubernetes.io/controller-managed-attach-detach: true
+CreationTimestamp:  Wed, 23 Jan 2019 01:51:35 -0800
+Taints:             <none>
+Unschedulable:      false
+Conditions:
+  Type             Status    LastHeartbeatTime                 LastTransitionTime                Reason                    Message
+  ----             ------    -----------------                 ------------------                ------                    -------
+  OutOfDisk        Unknown   Tue, 08 Sep 2020 22:31:08 -0700   Tue, 08 Sep 2020 22:31:54 -0700   NodeStatusUnknown         Kubelet stopped posting node status.
+  MemoryPressure   Unknown   Tue, 08 Sep 2020 22:31:08 -0700   Tue, 08 Sep 2020 22:31:54 -0700   NodeStatusUnknown         Kubelet stopped posting node status.
+  DiskPressure     Unknown   Tue, 08 Sep 2020 22:31:08 -0700   Tue, 08 Sep 2020 22:31:54 -0700   NodeStatusUnknown         Kubelet stopped posting node status.
+  PIDPressure      False     Tue, 08 Sep 2020 22:31:08 -0700   Wed, 23 Jan 2019 01:51:35 -0800   KubeletHasSufficientPID   kubelet has sufficient PID available
+  Ready            Unknown   Tue, 08 Sep 2020 22:31:08 -0700   Tue, 08 Sep 2020 22:31:54 -0700   NodeStatusUnknown         Kubelet stopped posting node status.
+Addresses:
+  InternalIP:  10.0.0.3
+  ExternalIP:  129.213.158.184
+Capacity:
+ cpu:                2
+ ephemeral-storage:  0
+ hugepages-1Gi:      0
+ hugepages-2Mi:      0
+ memory:             15117380Ki
+ pods:               110
+Allocatable:
+ cpu:                2
+ ephemeral-storage:  0
+ hugepages-1Gi:      0
+ hugepages-2Mi:      0
+ memory:             15014980Ki
+ pods:               110
+System Info:
+ Machine ID:                 269e2334113d44a583bfcadd94cf204f
+ System UUID:                269E2334-113D-44A5-83BF-CADD94CF204F
+ Boot ID:                    4229957a-aee6-4ee7-9c2c-5c6f6f8e5482
+ Kernel Version:             4.14.35-1818.2.1.el7uek.x86_64
+ OS Image:                   Oracle Linux Server 7.5
+ Operating System:           linux
+ Architecture:               amd64
+ Container Runtime Version:  docker://18.3.1
+ Kubelet Version:            v1.11.5
+ Kube-Proxy Version:         v1.11.5
+PodCIDR:                     10.244.0.0/24
+ProviderID:                  ocid1.instance.oc1.iad.abuwcljsc5iocjy2icjjxh4aaw7arfkvlc6nbfuiclvq56vgbkuwz4p5owzq
+Non-terminated Pods:         (2 in total)
+  Namespace                  Name                     CPU Requests  CPU Limits  Memory Requests  Memory Limits  AGE
+  ---------                  ----                     ------------  ----------  ---------------  -------------  ---
+  kube-system                kube-flannel-ds-62bgz    100m (5%)     1 (50%)     50Mi (0%)        500Mi (3%)     34d
+  kube-system                kube-proxy-48mf7         0 (0%)        0 (0%)      0 (0%)           0 (0%)         210d
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource           Requests   Limits
+  --------           --------   ------
+  cpu                100m (5%)  1 (50%)
+  memory             50Mi (0%)  500Mi (3%)
+  ephemeral-storage  0 (0%)     0 (0%)
+Events:              <none>
+
+
+Name:               129.213.94.197
+Roles:              node
+Labels:             beta.kubernetes.io/arch=amd64
+                    beta.kubernetes.io/instance-type=VM.Standard2.1
+                    beta.kubernetes.io/os=linux
+                    displayName=oke-cstamlegy3g-n2tgmtbgi2t-szdo5sts2fa-0
+                    failure-domain.beta.kubernetes.io/region=iad
+                    failure-domain.beta.kubernetes.io/zone=US-ASHBURN-AD-3
+                    hostname=oke-cstamlegy3g-n2tgmtbgi2t-szdo5sts2fa-0
+                    internal_addr=10.0.2.2
+                    kubernetes.io/hostname=129.213.94.197
+                    name=
+                    node-role.kubernetes.io/node=
+                    node.info/compartment.id_prefix=ocid1.compartment.oc1
+                    node.info/compartment.id_suffix=aaaaaaaalmlvzik7ma2odvrpge57bonyceqmvgc5sziagekmfdpoio4ubc6a
+                    node.info/compartment.name=NAADEV_CMP
+                    node.info/external.ipaddress=129.213.94.197
+                    node.info/kubeletVersion=v1.11
+                    node.info/node.id_prefix=ocid1.instance.oc1.iad
+                    node.info/node.id_suffix=abuwcljrlcpknq6ii7bhotnu5fjyct7ozgydnqiy57fnx2jdqh73ttofd25a
+                    oci.oraclecloud.com/fault-domain=FAULT-DOMAIN-3
+Annotations:        flannel.alpha.coreos.com/backend-data: {"VtepMAC":"52:86:3c:3a:b7:25"}
+                    flannel.alpha.coreos.com/backend-type: vxlan
+                    flannel.alpha.coreos.com/kube-subnet-manager: true
+                    flannel.alpha.coreos.com/public-ip: 10.0.2.2
+                    node.alpha.kubernetes.io/ttl: 0
+                    oci.oraclecloud.com/compartment-id: ocid1.compartment.oc1..aaaaaaaalmlvzik7ma2odvrpge57bonyceqmvgc5sziagekmfdpoio4ubc6a
+                    volumes.kubernetes.io/controller-managed-attach-detach: true
+CreationTimestamp:  Wed, 23 Jan 2019 02:37:57 -0800
+Taints:             <none>
+Unschedulable:      false
+Conditions:
+  Type             Status  LastHeartbeatTime                 LastTransitionTime                Reason                       Message
+  ----             ------  -----------------                 ------------------                ------                       -------
+  OutOfDisk        False   Mon, 12 Oct 2020 15:35:12 -0700   Wed, 15 Jul 2020 01:15:49 -0700   KubeletHasSufficientDisk     kubelet has sufficient disk space available
+  MemoryPressure   False   Mon, 12 Oct 2020 15:35:12 -0700   Wed, 15 Jul 2020 01:15:49 -0700   KubeletHasSufficientMemory   kubelet has sufficient memory available
+  DiskPressure     False   Mon, 12 Oct 2020 15:35:12 -0700   Mon, 12 Oct 2020 09:53:57 -0700   KubeletHasNoDiskPressure     kubelet has no disk pressure
+  PIDPressure      False   Mon, 12 Oct 2020 15:35:12 -0700   Wed, 23 Jan 2019 02:37:57 -0800   KubeletHasSufficientPID      kubelet has sufficient PID available
+  Ready            True    Mon, 12 Oct 2020 15:35:12 -0700   Wed, 15 Jul 2020 01:15:59 -0700   KubeletReady                 kubelet is posting ready status
+Addresses:
+  InternalIP:  10.0.2.2
+  ExternalIP:  129.213.94.197
+Capacity:
+ cpu:                2
+ ephemeral-storage:  40223552Ki
+ hugepages-1Gi:      0
+ hugepages-2Mi:      0
+ memory:             15117380Ki
+ pods:               110
+Allocatable:
+ cpu:                2
+ ephemeral-storage:  37070025462
+ hugepages-1Gi:      0
+ hugepages-2Mi:      0
+ memory:             15014980Ki
+ pods:               110
+System Info:
+ Machine ID:                 9df954db2e6244b587bea63e54d37423
+ System UUID:                9DF954DB-2E62-44B5-87BE-A63E54D37423
+ Boot ID:                    03a64a27-de38-45f0-97cf-79c8997cbc12
+ Kernel Version:             4.14.35-1818.2.1.el7uek.x86_64
+ OS Image:                   Oracle Linux Server 7.5
+ Operating System:           linux
+ Architecture:               amd64
+ Container Runtime Version:  docker://18.3.1
+ Kubelet Version:            v1.11.5
+ Kube-Proxy Version:         v1.11.5
+PodCIDR:                     10.244.2.0/24
+ProviderID:                  ocid1.instance.oc1.iad.abuwcljrlcpknq6ii7bhotnu5fjyct7ozgydnqiy57fnx2jdqh73ttofd25a
+Non-terminated Pods:         (21 in total)
+  Namespace                  Name                                              CPU Requests  CPU Limits  Memory Requests  Memory Limits  AGE
+  ---------                  ----                                              ------------  ----------  ---------------  -------------  ---
+  default                    bdo-686b64c68b-g2czr                              0 (0%)        0 (0%)      0 (0%)           0 (0%)         6h10m
+  default                    canon-support-deployment-6b9dc79b5d-vbtmz         0 (0%)        0 (0%)      0 (0%)           0 (0%)         4h54m
+  default                    cors-proxy-deployment-d7f99d7d8-k5m2t             0 (0%)        0 (0%)      0 (0%)           0 (0%)         3d6h
+  default                    corsproxy-deployment-5b8648f895-krkqb             0 (0%)        0 (0%)      0 (0%)           0 (0%)         6h10m
+  default                    default-http-backend-64fbd8d86b-vs7r5             10m (0%)      10m (0%)    20Mi (0%)        20Mi (0%)      6h39m
+  default                    hdot-deployment-796957b959-nfjk5                  0 (0%)        0 (0%)      0 (0%)           0 (0%)         40m
+  ingress-nginx              nginx-ingress-controller-769d8b56b7-6rwlc         0 (0%)        0 (0%)      0 (0%)           0 (0%)         6h10m
+  kube-system                kube-dns-799579bcbc-7sktl                         260m (13%)    0 (0%)      110Mi (0%)       170Mi (1%)     6h9m
+  kube-system                kube-dns-799579bcbc-ktf98                         260m (13%)    0 (0%)      110Mi (0%)       170Mi (1%)     6h10m
+  kube-system                kube-dns-799579bcbc-tqbwz                         260m (13%)    0 (0%)      110Mi (0%)       170Mi (1%)     6h9m
+  kube-system                kube-dns-autoscaler-5dddf859dd-nnp9s              20m (1%)      0 (0%)      10Mi (0%)        0 (0%)         82d
+  kube-system                kube-flannel-ds-kntth                             100m (5%)     1 (50%)     50Mi (0%)        500Mi (3%)     13d
+  kube-system                kube-proxy-56hrf                                  0 (0%)        0 (0%)      0 (0%)           0 (0%)         109d
+  kube-system                kubernetes-dashboard-85d4d5dddd-4gr4x             0 (0%)        0 (0%)      0 (0%)           0 (0%)         5h46m
+  kube-system                tiller-deploy-8685c785f4-qlkhl                    0 (0%)        0 (0%)      0 (0%)           0 (0%)         6h38m
+  kubernetes-dashboard       dashboard-metrics-scraper-7c47df7f67-8hm6p        0 (0%)        0 (0%)      0 (0%)           0 (0%)         6h9m
+  kubernetes-dashboard       kubernetes-dashboard-cd5f4cf6d-t9cx8              0 (0%)        0 (0%)      0 (0%)           0 (0%)         6h10m
+  siebel                     default-http-backend-64fbd8d86b-pxqfl             10m (0%)      10m (0%)    20Mi (0%)        20Mi (0%)      6h9m
+  siebel                     nginx-ingress-controller-594f98c9bc-78gnf         0 (0%)        0 (0%)      0 (0%)           0 (0%)         6h10m
+  siebel                     siebel-oic-adapter-deployment-84bc554698-zv2fr    0 (0%)        0 (0%)      0 (0%)           0 (0%)         3d6h
+  siebel                     test-config-796ccb9fb-xt7f7                       0 (0%)        0 (0%)      0 (0%)           0 (0%)         6h35m
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource           Requests    Limits
+  --------           --------    ------
+  cpu                920m (46%)  1020m (51%)
+  memory             430Mi (2%)  1050Mi (7%)
+  ephemeral-storage  0 (0%)      0 (0%)
+Events:              <none>
+
+
+Name:               132.145.171.39
+Roles:              node
+Labels:             beta.kubernetes.io/arch=amd64
+                    beta.kubernetes.io/instance-type=VM.Standard2.1
+                    beta.kubernetes.io/os=linux
+                    displayName=oke-cstamlegy3g-n2tgmtbgi2t-s3ey53cfj2q-0
+                    failure-domain.beta.kubernetes.io/region=iad
+                    failure-domain.beta.kubernetes.io/zone=US-ASHBURN-AD-2
+                    hostname=oke-cstamlegy3g-n2tgmtbgi2t-s3ey53cfj2q-0
+                    internal_addr=10.0.1.3
+                    kubernetes.io/hostname=132.145.171.39
+                    name=
+                    node-role.kubernetes.io/node=
+                    node.info/compartment.id_prefix=ocid1.compartment.oc1
+                    node.info/compartment.id_suffix=aaaaaaaalmlvzik7ma2odvrpge57bonyceqmvgc5sziagekmfdpoio4ubc6a
+                    node.info/compartment.name=NAADEV_CMP
+                    node.info/external.ipaddress=132.145.171.39
+                    node.info/kubeletVersion=v1.11
+                    node.info/node.id_prefix=ocid1.instance.oc1.iad
+                    node.info/node.id_suffix=abuwcljtv5xpx3kmicrortli3w5hbe2kzgzumepv4igu7cd6arvdlsgk7hbq
+                    oci.oraclecloud.com/fault-domain=FAULT-DOMAIN-3
+Annotations:        flannel.alpha.coreos.com/backend-data: {"VtepMAC":"7e:63:05:b7:dd:cd"}
+                    flannel.alpha.coreos.com/backend-type: vxlan
+                    flannel.alpha.coreos.com/kube-subnet-manager: true
+                    flannel.alpha.coreos.com/public-ip: 10.0.1.3
+                    node.alpha.kubernetes.io/ttl: 0
+                    oci.oraclecloud.com/compartment-id: ocid1.compartment.oc1..aaaaaaaalmlvzik7ma2odvrpge57bonyceqmvgc5sziagekmfdpoio4ubc6a
+                    volumes.kubernetes.io/controller-managed-attach-detach: true
+CreationTimestamp:  Wed, 23 Jan 2019 01:51:45 -0800
+Taints:             <none>
+Unschedulable:      false
+Conditions:
+  Type             Status  LastHeartbeatTime                 LastTransitionTime                Reason                       Message
+  ----             ------  -----------------                 ------------------                ------                       -------
+  OutOfDisk        False   Mon, 12 Oct 2020 15:35:12 -0700   Wed, 15 Jul 2020 00:36:36 -0700   KubeletHasSufficientDisk     kubelet has sufficient disk space available
+  MemoryPressure   False   Mon, 12 Oct 2020 15:35:12 -0700   Wed, 15 Jul 2020 00:36:36 -0700   KubeletHasSufficientMemory   kubelet has sufficient memory available
+  DiskPressure     True    Mon, 12 Oct 2020 15:35:12 -0700   Sun, 27 Sep 2020 21:29:40 -0700   KubeletHasDiskPressure       kubelet has disk pressure
+  PIDPressure      False   Mon, 12 Oct 2020 15:35:12 -0700   Wed, 23 Jan 2019 01:51:45 -0800   KubeletHasSufficientPID      kubelet has sufficient PID available
+  Ready            True    Mon, 12 Oct 2020 15:35:12 -0700   Wed, 15 Jul 2020 00:36:46 -0700   KubeletReady                 kubelet is posting ready status
+Addresses:
+  InternalIP:  10.0.1.3
+  ExternalIP:  132.145.171.39
+Capacity:
+ cpu:                2
+ ephemeral-storage:  40223552Ki
+ hugepages-1Gi:      0
+ hugepages-2Mi:      0
+ memory:             15117380Ki
+ pods:               110
+Allocatable:
+ cpu:                2
+ ephemeral-storage:  37070025462
+ hugepages-1Gi:      0
+ hugepages-2Mi:      0
+ memory:             15014980Ki
+ pods:               110
+System Info:
+ Machine ID:                 832f8208f2e947d8adb589eacb0b4b99
+ System UUID:                832F8208-F2E9-47D8-ADB5-89EACB0B4B99
+ Boot ID:                    3f4224bd-0f2c-4d16-b41f-41963d1c4914
+ Kernel Version:             4.14.35-1818.2.1.el7uek.x86_64
+ OS Image:                   Oracle Linux Server 7.5
+ Operating System:           linux
+ Architecture:               amd64
+ Container Runtime Version:  docker://18.3.1
+ Kubelet Version:            v1.11.5
+ Kube-Proxy Version:         v1.11.5
+PodCIDR:                     10.244.1.0/24
+ProviderID:                  ocid1.instance.oc1.iad.abuwcljtv5xpx3kmicrortli3w5hbe2kzgzumepv4igu7cd6arvdlsgk7hbq
+Non-terminated Pods:         (3 in total)
+  Namespace                  Name                                         CPU Requests  CPU Limits  Memory Requests  Memory Limits  AGE
+  ---------                  ----                                         ------------  ----------  ---------------  -------------  ---
+  default                    scm-bot-webhook-deployment-bcd47ffd-rktw7    0 (0%)        0 (0%)      0 (0%)           0 (0%)         17d
+  kube-system                kube-flannel-ds-zxpz4                        100m (5%)     1 (50%)     50Mi (0%)        500Mi (3%)     1s
+  kube-system                kube-proxy-nksks                             0 (0%)        0 (0%)      0 (0%)           0 (0%)         5h4m
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource           Requests   Limits
+  --------           --------   ------
+  cpu                100m (5%)  1 (50%)
+  memory             50Mi (0%)  500Mi (3%)
+  ephemeral-storage  0 (0%)     0 (0%)
+Events:
+  Type     Reason                Age                    From                     Message
+  ----     ------                ----                   ----                     -------
+  Warning  EvictionThresholdMet  31s (x50881 over 89d)  kubelet, 132.145.171.39  Attempting to reclaim ephemeral-storage
+
+

@@ -11,10 +11,10 @@ import Avatar from "@material-ui/core/Avatar";
 import Typography from "@material-ui/core/Typography";
 import IconButton from "@material-ui/core/IconButton";
 import HighlightOffIcon from "@material-ui/icons/HighlightOff";
-import Chicago from "../assets/images/Chicago.jpg";
-import Denver from "../assets/images/Denver.png";
-import Grand from "../assets/images/GrandRapids.gif";
-import hdot from "../assets/images/hdot.jpg";
+import Kauai from "../assets/images/kauai_sat.jpeg";
+import Maui from "../assets/images/Maui_Landsat_Photo.jpg";
+import Hawaii from "../assets/images/hawaii_mosaic.jpg";
+import Oahu from "../assets/images/Oahu.jpeg";
 
 import Projects from "../assets/static/Projects";
 import Tasks from "../assets/static/Tasks";
@@ -34,6 +34,9 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.getContrastText(deepOrange[500]),
     backgroundColor: deepOrange[500],
   },
+  island: {
+    objectFit: "fill",
+  },
 }));
 
 export default function ListItemDisplay(props) {
@@ -51,9 +54,10 @@ export default function ListItemDisplay(props) {
   };
 
   const images = {
-    Chicago: Chicago,
-    Denver: Denver,
-    "Grand Rapids": Grand,
+    Kauai: Kauai,
+    Maui: Maui,
+    Hawaii: Hawaii,
+    Oahu: Oahu,
   };
 
   return (
@@ -62,12 +66,16 @@ export default function ListItemDisplay(props) {
         {!essId ? (
           <Link to={`/form/${localStorage.getItem("utcDate")}/${entry.id}`}>
             <ListItemAvatar>
-              <Avatar alt={entry.locality} src={hdot} />
+              <Avatar
+                alt={entry.locality}
+                src={images[entry.locality]}
+                classes={{ img: classes.island }}
+              />
             </ListItemAvatar>
           </Link>
         ) : (
           <ListItemAvatar>
-            <Avatar alt={entry.locality} src={hdot} />
+            <Avatar alt={entry.locality} src={images[entry.locality]} />
           </ListItemAvatar>
         )}
 

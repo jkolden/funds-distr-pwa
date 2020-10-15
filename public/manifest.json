@@ -1,6 +1,6 @@
 {
-  "short_name": "HDOT Time Entry",
-  "name": "HDOT Time Entry",
+  "short_name": "State of Missouri",
+  "name": "State of Missouri",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,18 +8,18 @@
       "type": "image/x-icon"
     },
     {
-      "src": "hdot192.png",
+      "src": "MissouriLogo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "hdot512.png",
+      "src": "MissouriLogo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#00000",
+  "background_color": "#5c5c5c"
 }

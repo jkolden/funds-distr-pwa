@@ -1,6 +1,17 @@
 const Tasks = {
-  HWY10001: [{ "3PE": "Task 3PE" }, { "1PLN": "Task 1PLN" }],
-  HWY10002: [{ "3PE": "Task 3PE" }, { "1PLN": "Task 1PLN" }],
+  PRG20001: [
+    { "1.0": "Planning" },
+    { "2.0": "Training" },
+    { "4.0": "Execution" },
+    { "5.0": "Administration" },
+  ],
+  PRG20002: [
+    { "1.0": "Planning" },
+    { "2.0": "Training" },
+    { "4.0": "Execution" },
+    { "5.0": "Administration" },
+  ],
+  DOTX0001: [{ CON: "Construction" }],
 };
 
 export default Tasks;

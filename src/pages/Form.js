@@ -38,7 +38,7 @@ function Form({ match }) {
 
   const [hourlyEntry, setHourlyEntry] = useState({
     hours: "",
-    locality: "Chicago",
+    locality: "Central",
     worktype: "External",
   });
 

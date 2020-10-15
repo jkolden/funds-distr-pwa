@@ -1,6 +1,7 @@
 const Projects = [
-  { HWY10001: "Build this Road" },
-  { HWY10001: "Build this Road 2" },
+  { PRG20001: "NBCCEDP" },
+  { PRG20002: "NCCCP" },
+  { DOTX0001: "Major Highway Construction Project" },
 ];
 
 export default Projects;

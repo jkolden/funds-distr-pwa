@@ -10,27 +10,35 @@ export default function LocalitySelect({ hourlyEntry, handleChange }) {
       <div className="mbsc-form-group-title">Locality</div>
       <mobiscroll.Radio
         name="group"
-        value="Chicago"
-        checked={hourlyEntry["locality"] === "Chicago"}
+        value="Central"
+        checked={hourlyEntry["locality"] === "Central"}
         onChange={handleChange("locality")}
       >
-        Chicago
+        Central
       </mobiscroll.Radio>
       <mobiscroll.Radio
         name="group"
-        value="Denver"
+        value="St. Louis"
         onChange={handleChange("locality")}
-        checked={hourlyEntry["locality"] === "Denver"}
+        checked={hourlyEntry["locality"] === "St. Louis"}
       >
-        Denver
+        St. Louis
       </mobiscroll.Radio>
       <mobiscroll.Radio
         name="group"
-        value="Grand Rapids"
+        value="Northeast"
         onChange={handleChange("locality")}
-        checked={hourlyEntry["locality"] === "Grand Rapids"}
+        checked={hourlyEntry["locality"] === "Northeast"}
       >
-        Grand Rapids
+        Northeast
+      </mobiscroll.Radio>
+      <mobiscroll.Radio
+        name="group"
+        value="Southeast"
+        onChange={handleChange("locality")}
+        checked={hourlyEntry["locality"] === "Southeast"}
+      >
+        Southeast
       </mobiscroll.Radio>
     </React.Fragment>
   );
