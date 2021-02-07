@@ -1,8 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). The application is a PWA that allows for mobile entry of SaaS project time cards. Upon submitting a timecard, the data is saved to an Oracle database and is further processed before being loaded to Oracle SaaS Project Cost Accounting.
 
-## Available Scripts
+## Instructions to run and deploy:
 
-In the project directory, you can run:
+- Clone this repo to a local directory on your host machine.
+- CD into that directory and run `npm install`
+- `npm run` to run a version on your local machine
 
 ### `yarn start`
 
