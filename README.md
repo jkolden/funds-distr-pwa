@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). The application is a PWA that allows for mobile entry of SaaS project time cards. Upon submitting a timecard, the data is saved to an Oracle database and is further processed before being loaded to Oracle SaaS Project Cost Accounting.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses styled components from [Material UI](https://material-ui.com/). The application is a PWA that allows for mobile entry of SaaS project time cards. Upon submitting a timecard, the data is saved to an Oracle database and is further processed before being loaded to Oracle SaaS Project Cost Accounting. The additional processing consists of distributing each time entry to the various grant awards that fund a particular project. This is a common requirement of public sector agencies that receive grant funding.
+
+The main SaaS API used is `importBulkData` which is a SOAP API that emulates the File Based Data Load process for sending Excel-based timesheet data to Projects cloud. The back end PL/SQL code is not included in this repo but is hosted on [apex.oracle.com](apex.oracle.com).
 
 ## Instructions to run and deploy:
 
@@ -25,4 +27,4 @@ Deploying to a third pary like Vercel is easier, assuming you have the Vercel OC
 - `npm build`
 - CD into build folder
 - `$ vercel`
-- Accept default and note URL. It's deployed!
+- Accept defaults and note URL. It's deployed!
