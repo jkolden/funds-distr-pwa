@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Screen Shots of PWA:
-![image](https://user-images.githubusercontent.com/21246211/107154113-fdeff500-6925-11eb-9513-7ad99e8da113.png)
+![image](https://user-images.githubusercontent.com/21246211/107154174-57f0ba80-6926-11eb-92d8-e3c35f8ab8fa.png)
 
 ### Deployment
 
