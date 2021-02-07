@@ -10,10 +10,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Screen Shots of PWA:
 ![image](https://user-images.githubusercontent.com/21246211/107154174-57f0ba80-6926-11eb-92d8-e3c35f8ab8fa.png)
 
-### Deployment
+### Deployment to OCI
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+These are sample commands that can be used to build the docker container and push to dockerhub. From there it can be delpoyed to any OCI K8 cluster in your tenancy using the included deployment.yaml.
 
-### `yarn build` fails to minify
+- Build the Docker container `docker build -t [dir]/[tag] .`
+- `docker push [dir]/[tag]`
+- `kubectl deploy -f deployment.yaml`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Deployment to Vercel
+
+Deploying to a third pary like Vercel is easier, assuming you have the Vercel OCI installed:
+
+- `npm build`
+- CD into build folder
+- `$ vercel`
+- Accept default and note URL. It's deployed!
